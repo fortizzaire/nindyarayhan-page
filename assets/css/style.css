@@ -38,6 +38,16 @@ body {
 
 }
 
+.modal-content {
+  background-color: var(--c-primary-color);
+  transition: var(--transition);
+}
+
+.btn-close {
+  background-color: var(--c-primary-color);
+  transition: var(--transition);
+}
+
 h1,
 h2,
 h3,
@@ -202,6 +212,25 @@ img {
 
 .team-member:hover .team-member-content {
   bottom: 34px;
+}
+
+.porto-modal-content {
+  background-color: var(--c-primary-color);
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  width: calc(100% - 50px);
+  transform: translateX(-50%);
+  padding: 24px;
+  transition: var(--transition);
+  font-size: 14px;
+  opacity: 0;
+  color: var(--c-secondary-color);
+}
+
+.porto-modal:hover .porto-modal-content {
+  opacity: 1;
+  bottom: 24px;
 }
 
 /* image zoom */
