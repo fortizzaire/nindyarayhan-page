@@ -226,6 +226,7 @@ img {
   font-size: 14px;
   opacity: 0;
   color: var(--c-secondary-color);
+  border-radius: 5px;
 }
 
 .porto-modal:hover .porto-modal-content {
